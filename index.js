@@ -2,6 +2,7 @@ require("dotenv").config();
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 const fetch = require("node-fetch");
+const escape_quotes = require("escape-quotes");
 // eslint-disable-next-line no-undef
 const TOKEN = process.env.TOKEN;
 
@@ -83,7 +84,7 @@ bot.on("message", (msg) => {
           Referer: "https://ineedyoutotellmewerealrighttellmewereokay.com/",
           "X-TOP-Access-Key": "Aigiequiem7ahh2saeNahl6eighum9ae",
         },
-        body: `{ "command": "${toTest}" }`,
+        body: `{ "command": "${escape_quotes(toTest, '"')}" }`,
       })
         .then((res) => res.json())
         .then((json) => foundPass(msg, json, toTest))
