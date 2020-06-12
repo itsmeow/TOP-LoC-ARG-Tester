@@ -1,0 +1,38 @@
+{
+  "name": "top-loc-arg-tester",
+  "version": "1.0.0",
+  "description": "A discord bot to test codes from the twenty one pilots LoC ARG (!test (code))",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "itsmeow",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.1.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmeow/TOP-LoC-ARG-Tester.git"
+  },
+  "keywords": [
+    "twentyonepilots",
+    "level",
+    "of",
+    "concern",
+    "ARG",
+    "alternate",
+    "reality",
+    "game"
+  ],
+  "bugs": {
+    "url": "https://github.com/itsmeow/TOP-LoC-ARG-Tester/issues"
+  },
+  "homepage": "https://github.com/itsmeow/TOP-LoC-ARG-Tester#readme"
+}
