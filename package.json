@@ -13,7 +13,7 @@
     "discord.js": "^12.1.1",
     "dotenv": "^8.2.0",
     "escape-quotes": "^1.0.2",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0"
